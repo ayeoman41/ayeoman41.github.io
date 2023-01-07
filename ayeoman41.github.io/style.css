@@ -1,0 +1,79 @@
+body {
+    background-image: url(../images/abstract.webp);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+a {
+    color: black;
+    text-shadow: 2px 2px gold;
+    text-decoration: none;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 0;
+    margin: 0;
+}
+
+.link {
+    font-size: larger;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+.emblem {
+    display: block;
+    margin-right: 300px;
+    padding: 0;
+    margin: 20px;
+}
+
+.me {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 70px;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 100px;
+    position: relative;
+    animation: movement;
+    animation-duration: 5s;
+}
+
+@keyframes movement {
+    0% {top: -1000px}
+    100% {top: 0px}
+}
+
+.button1, .button2{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 40px
+}
+
+.footer {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.link2 {
+    border-bottom: 1px solid black;
+    position: relative;
+    animation-name: fly;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fly {
+    0% {left: -2000px}
+    100% {left: 0px}
+}
