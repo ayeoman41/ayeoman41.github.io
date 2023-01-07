@@ -3,3 +3,29 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
+
+a {
+    color: gold;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 0;
+    margin: 0;
+}
+
+.link {
+    font-size: larger;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: black;
+    
+}
+.emblem {
+    display: block;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
