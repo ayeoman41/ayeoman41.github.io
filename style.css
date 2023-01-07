@@ -5,7 +5,9 @@ body {
 }
 
 a {
-    color: gold;
+    color: black;
+    text-shadow: 2px 2px gold;
+    text-decoration: none;
 }
 .container {
     display: flex;
@@ -20,7 +22,6 @@ a {
     text-decoration: none;
     border: 1px solid black;
     border-radius: 5px;
-    background-color: black;
     
 }
 .emblem {
